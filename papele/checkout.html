@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Papelê | Checkout</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header">
+
+            <a href="index.html"
+               class="logo">
+                Papelê
+            </a>
+
+            <nav>
+
+                <a href="index.html">
+                    Início
+                </a>
+
+                <a href="produtos.html">
+                    Produtos
+                </a>
+
+                <a href="categorias.html">
+                    Categorias
+                </a>
+
+                <a href="contato.html">
+                    Contato
+                </a>
+
+            </nav>
+
+            <div class="acoes">
+
+                <a href="login.html">
+                    Entrar
+                </a>
+
+                <a href="carrinho.html">
+                    🛒
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="container">
+
+        <section class="checkout">
+
+            <div>
+
+                <h1>
+                    Finalizar pedido
+                </h1>
+
+
+                <form
+                    action="pedidos.html"
+                    method="get">
+
+
+                    <label for="nome">
+                        Nome completo
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        required
+                    >
+
+
+                    <label for="endereco">
+                        Endereço
+                    </label>
+
+                    <input
+                        type="text"
+                        id="endereco"
+                        required
+                    >
+
+
+                    <label for="cidade">
+                        Cidade
+                    </label>
+
+                    <input
+                        type="text"
+                        id="cidade"
+                        required
+                    >
+
+
+                    <label for="cep">
+                        CEP
+                    </label>
+
+                    <input
+                        type="text"
+                        id="cep"
+                        required
+                    >
+
+
+                    <label for="pagamento">
+                        Forma de pagamento
+                    </label>
+
+                    <select
+                        id="pagamento"
+                        required>
+
+                        <option value="">
+                            Selecione
+                        </option>
+
+                        <option>
+                            Pix
+                        </option>
+
+                        <option>
+                            Cartão
+                        </option>
+
+                        <option>
+                            Boleto
+                        </option>
+
+                    </select>
+
+
+                    <button
+                        type="submit"
+                        class="botao">
+                        Confirmar pedido
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <aside class="checkout-resumo">
+
+                <h2>
+                    Resumo
+                </h2>
+
+                <p>
+                    Caderno Criativo
+                </p>
+
+                <p>
+                    Quantidade: 1
+                </p>
+
+                <p class="preco">
+                    Total: R$ 29,90
+                </p>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer">
+
+            <div>
+
+                <h3>Papelê</h3>
+
+                <p>
+                    Papelaria criativa para organizar,
+                    estudar e criar.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Navegação</h3>
+
+                <a href="index.html">Início</a><br>
+                <a href="produtos.html">Produtos</a><br>
+                <a href="categorias.html">Categorias</a><br>
+                <a href="contato.html">Contato</a>
+
+            </div>
+
+            <div>
+
+                <h3>Minha conta</h3>
+
+                <a href="login.html">Entrar</a><br>
+                <a href="pedidos.html">Pedidos</a><br>
+                <a href="favoritos.html">Favoritos</a>
+
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            ©️ 2026 Papelê. Projeto escolar.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
